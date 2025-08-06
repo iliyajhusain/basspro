@@ -1,5 +1,6 @@
 import { chatConfig, chatWindow, AgentDesktopPlugin, BrowserTTS, RetailAssistTemplatePlugin, Korei18nPlugin } from '../../../../../dist/kore-web-sdk.esm.browser.js';
-import { WebKitSTT } from '../../../../../dist/kore-web-sdk.esm.browser.js';
+// import { WebKitSTT } from '../../../../../dist/kore-web-sdk.esm.browser.js';
+import { WebKitSTT } from './kore-web-sdk.esm.browser.js';
 
 let chatWindowInstance = new chatWindow();
 
